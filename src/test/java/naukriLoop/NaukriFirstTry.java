@@ -16,7 +16,7 @@ public class NaukriFirstTry {
   public void f() {
 	  
   }
-  @BeforeClass
+  @BeforeClass(name = "BeforeClass")
   public void beforeClass() throws InterruptedException {
 	  
 	  while(true) {
